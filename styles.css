@@ -49,15 +49,12 @@ body {
   padding: 10px;
 }
 
-.magic-container{
-  display: none;
-}
-
 .magic-box {
+  display: none;
   width: 35%;
   height: 200px;
+  margin: 15px;
   border: 2px solid indigo;
-  margin: 15px auto;
   padding: 10px;
   float: right;
   background-color: gold;
