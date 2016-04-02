@@ -21,22 +21,16 @@ $(function (){  // document ready function
 
   $(".magic-box button[name='change']").click(function () {
     console.log($(".magic-box" ).css("background-color"));
+    $(".counter").empty();
     if ($(".magic-box" ).css("background-color") == "rgb(255, 215, 0)") {
       $(".magic-box").css("background-color", "tomato");
+      $(".magic-box").css("border", "2px solid firebrick");
     } else {
-      $(".magic-box").css("background-color", "gold")
+      $(".magic-box").css("background-color", "gold");
+      $(".magic-box").css("border", "2px solid orange");
     }
     countColor += 1;
-    console.log(countColor);
-  
-
+    $(".counter").append(countColor);
   });
-
-  // var element = document.getElementById('element');
-  // if(element.style.visibility == 'hidden'){
-  //  alert('hidden');
-  // }
-  //  if(element.style.visibility == 'visible')
-
 
 });  // end document ready
