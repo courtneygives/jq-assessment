@@ -11,28 +11,35 @@ font-family: 'Montez', cursive;*/
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 30px;
+  text-align: center;
   margin: 5px auto;
-
-
 }
 
 h2 {
   font-family: 'Orbitron', sans-serif;
   font-size: 20px;
-  margin: 10px auto;
+  text-align: center;
+  margin: 5px auto;
 
 }
 
 p {
   font-family: 'Architects Daughter', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px auto;
 
 }
 
 button {
   font-family: 'Bangers', cursive;
+  display: block;
   padding: 5px;
+  border-radius: 5px;
   font-size: 20px;
-  float: right;
+  color: black;
+  background-color: white;
+  margin: 5px auto;
 }
 
 body {
@@ -40,25 +47,34 @@ body {
 }
 
 .hello-area {
-  float: left;
   width: 50%;
-  height: 200px;
-  display: block;
-  margin: 15px;
+  margin: 15px auto;
   border: 2px solid indigo;
-  padding: 10px;
-}
-
-.magic-container{
-  display: none;
+  padding:10px;
+  background-color: mediumpurple;
+  border-radius: 10px;
 }
 
 .magic-box {
-  width: 35%;
-  height: 200px;
-  border: 2px solid indigo;
+  display: none;
+  width: 50%;
   margin: 15px auto;
+  border: 2px solid orange;
+  border-radius: 10px;
   padding: 10px;
-  float: right;
   background-color: gold;
+}
+
+.counter {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 25px;
+  width: 35%;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid darkcyan;
+  border-radius: 10px;
+  background-color: cadetblue;
+  margin: auto;
+
 }
